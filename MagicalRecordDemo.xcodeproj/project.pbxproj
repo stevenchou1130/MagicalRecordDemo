@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92286BDE4DD00B1645C433B3 /* Pods_MagicalRecordDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1035494F9B5C76CDB1276D68 /* Pods_MagicalRecordDemoTests.framework */; };
+		A4E1CBD1C150CD0B84B4D25B /* Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259495A98568788C9F1FF035 /* Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework */; };
+		ABC7AB0EE02B83FA0E2C663D /* Pods_MagicalRecordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E135C9955603E61E835FF52 /* Pods_MagicalRecordDemo.framework */; };
 		B0F7095A25F9BFE700E10AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */; };
 		B0F7095C25F9BFE700E10AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */; };
 		B0F7095E25F9BFE700E10AE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095D25F9BFE700E10AE0 /* ViewController.swift */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A8DAEBE6133FDC643859B14 /* Pods-MagicalRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.debug.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1035494F9B5C76CDB1276D68 /* Pods_MagicalRecordDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E650B9AE989511A25DB408 /* Pods-MagicalRecordDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemoTests/Pods-MagicalRecordDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		259495A98568788C9F1FF035 /* Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7A6A543E1B70A0E8FE68B4 /* Pods-MagicalRecordDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemoTests/Pods-MagicalRecordDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A84E7ACCE0A5022874F42D2 /* Pods-MagicalRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.release.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
+		897F78F0D6F0A5EF6847A14B /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo-MagicalRecordDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemo-MagicalRecordDemoUITests/Pods-MagicalRecordDemo-MagicalRecordDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E135C9955603E61E835FF52 /* Pods_MagicalRecordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7095625F9BFE700E10AE0 /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		B0F7097725F9BFEB00E10AE0 /* MagicalRecordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicalRecordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7097B25F9BFEB00E10AE0 /* MagicalRecordDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicalRecordDemoUITests.swift; sourceTree = "<group>"; };
 		B0F7097D25F9BFEB00E10AE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87B0B3E9EE10ACA9331D3EE /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo-MagicalRecordDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MagicalRecordDemo-MagicalRecordDemoUITests/Pods-MagicalRecordDemo-MagicalRecordDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC7AB0EE02B83FA0E2C663D /* Pods_MagicalRecordDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92286BDE4DD00B1645C433B3 /* Pods_MagicalRecordDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E1CBD1C150CD0B84B4D25B /* Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AA6F0431EC8282F0AC420AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E135C9955603E61E835FF52 /* Pods_MagicalRecordDemo.framework */,
+				259495A98568788C9F1FF035 /* Pods_MagicalRecordDemo_MagicalRecordDemoUITests.framework */,
+				1035494F9B5C76CDB1276D68 /* Pods_MagicalRecordDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0F7094D25F9BFE700E10AE0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				B0F7096F25F9BFEB00E10AE0 /* MagicalRecordDemoTests */,
 				B0F7097A25F9BFEB00E10AE0 /* MagicalRecordDemoUITests */,
 				B0F7095725F9BFE700E10AE0 /* Products */,
+				B9B08A60D06922F17442A4F5 /* Pods */,
+				9AA6F0431EC8282F0AC420AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = MagicalRecordDemoUITests;
 			sourceTree = "<group>";
 		};
+		B9B08A60D06922F17442A4F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8DAEBE6133FDC643859B14 /* Pods-MagicalRecordDemo.debug.xcconfig */,
+				5A84E7ACCE0A5022874F42D2 /* Pods-MagicalRecordDemo.release.xcconfig */,
+				D87B0B3E9EE10ACA9331D3EE /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.debug.xcconfig */,
+				897F78F0D6F0A5EF6847A14B /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.release.xcconfig */,
+				14E650B9AE989511A25DB408 /* Pods-MagicalRecordDemoTests.debug.xcconfig */,
+				3D7A6A543E1B70A0E8FE68B4 /* Pods-MagicalRecordDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F7098025F9BFEB00E10AE0 /* Build configuration list for PBXNativeTarget "MagicalRecordDemo" */;
 			buildPhases = (
+				D84B764508F275E49F350D38 /* [CP] Check Pods Manifest.lock */,
 				B0F7095225F9BFE700E10AE0 /* Sources */,
 				B0F7095325F9BFE700E10AE0 /* Frameworks */,
 				B0F7095425F9BFE700E10AE0 /* Resources */,
+				CF0680835E579AA3726DB198 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F7098325F9BFEB00E10AE0 /* Build configuration list for PBXNativeTarget "MagicalRecordDemoTests" */;
 			buildPhases = (
+				8D2F19E7CC302BC0C7CF92C2 /* [CP] Check Pods Manifest.lock */,
 				B0F7096825F9BFEB00E10AE0 /* Sources */,
 				B0F7096925F9BFEB00E10AE0 /* Frameworks */,
 				B0F7096A25F9BFEB00E10AE0 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0F7098625F9BFEB00E10AE0 /* Build configuration list for PBXNativeTarget "MagicalRecordDemoUITests" */;
 			buildPhases = (
+				602B872500ECB1145D76376D /* [CP] Check Pods Manifest.lock */,
 				B0F7097325F9BFEB00E10AE0 /* Sources */,
 				B0F7097425F9BFEB00E10AE0 /* Frameworks */,
 				B0F7097525F9BFEB00E10AE0 /* Resources */,
+				28D405A57CBAC656CDB0186B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28D405A57CBAC656CDB0186B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo-MagicalRecordDemoUITests/Pods-MagicalRecordDemo-MagicalRecordDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo-MagicalRecordDemoUITests/Pods-MagicalRecordDemo-MagicalRecordDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo-MagicalRecordDemoUITests/Pods-MagicalRecordDemo-MagicalRecordDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		602B872500ECB1145D76376D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalRecordDemo-MagicalRecordDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2F19E7CC302BC0C7CF92C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalRecordDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF0680835E579AA3726DB198 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D84B764508F275E49F350D38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicalRecordDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0F7095225F9BFE700E10AE0 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		B0F7098125F9BFEB00E10AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8DAEBE6133FDC643859B14 /* Pods-MagicalRecordDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		B0F7098225F9BFEB00E10AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A84E7ACCE0A5022874F42D2 /* Pods-MagicalRecordDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		B0F7098425F9BFEB00E10AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E650B9AE989511A25DB408 /* Pods-MagicalRecordDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		B0F7098525F9BFEB00E10AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7A6A543E1B70A0E8FE68B4 /* Pods-MagicalRecordDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		B0F7098725F9BFEB00E10AE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87B0B3E9EE10ACA9331D3EE /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		B0F7098825F9BFEB00E10AE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897F78F0D6F0A5EF6847A14B /* Pods-MagicalRecordDemo-MagicalRecordDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

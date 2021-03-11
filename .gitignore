@@ -1,21 +1,14 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,swift,objective-c,git
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,swift,objective-c,git
+# Created by https://www.toptal.com/developers/gitignore/api/cocoapods,swift,objective-c,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=cocoapods,swift,objective-c,macos
 
-### Git ###
-# Created by git for backups. To disable backups in Git:
-# $ git config --global mergetool.keepBackup false
-*.orig
+### CocoaPods ###
+## CocoaPods GitIgnore Template
 
-# Created by git when using merge tools for conflicts
-*.BACKUP.*
-*.BASE.*
-*.LOCAL.*
-*.REMOTE.*
-*_BACKUP_*.txt
-*_BASE_*.txt
-*_LOCAL_*.txt
-*_REMOTE_*.txt
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
 
 ### macOS ###
 # General
@@ -166,4 +159,4 @@ Dependencies/
 # https://github.com/johnno1962/injectionforxcode
 
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,swift,objective-c,git
+# End of https://www.toptal.com/developers/gitignore/api/cocoapods,swift,objective-c,macos

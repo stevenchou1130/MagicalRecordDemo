@@ -6,6 +6,7 @@ target 'MagicalRecordDemo' do
   use_frameworks!
 
   # Pods for MagicalRecordDemo
+  pod 'MagicalRecord', :git => 'https://github.com/magicalpanda/MagicalRecord'
 
   target 'MagicalRecordDemoTests' do
     inherit! :search_paths
