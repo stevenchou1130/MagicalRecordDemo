@@ -28,7 +28,7 @@ CHECKOUT OPTIONS:
     :commit: 6031f608b79c1d6802007aaed6efd100e11f59ba
     :git: https://github.com/magicalpanda/MagicalRecord
   SCiOSToolbox:
-    :commit: 9135615d23a8e588bbd10e0467c1000f1040bddb
+    :commit: f0b5af634eac49317eb684c65d53fbe44734f1ea
     :git: https://github.com/stevenchou1130/SCiOSToolbox.git
 
 SPEC CHECKSUMS:

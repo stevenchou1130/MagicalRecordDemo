@@ -12,6 +12,8 @@
 		ABC7AB0EE02B83FA0E2C663D /* Pods_MagicalRecordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E135C9955603E61E835FF52 /* Pods_MagicalRecordDemo.framework */; };
 		B05C776125FB1DCD00587FC3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C776025FB1DCD00587FC3 /* BaseViewController.swift */; };
 		B05C77B725FB3A3700587FC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C77B625FB3A3700587FC3 /* MainViewController.swift */; };
+		B05C794125FB63FC00587FC3 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C794025FB63FC00587FC3 /* DBHelper.swift */; };
+		B05C794E25FB6B8600587FC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C794D25FB6B8600587FC3 /* User.swift */; };
 		B0F7095A25F9BFE700E10AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */; };
 		B0F7095C25F9BFE700E10AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */; };
 		B0F7096125F9BFE700E10AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7095F25F9BFE700E10AE0 /* Main.storyboard */; };
@@ -51,6 +53,8 @@
 		B05C77B625FB3A3700587FC3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B05C77C425FB3BB400587FC3 /* SCiOSToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCiOSToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05C785925FB3E7C00587FC3 /* MagicalRecordDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicalRecordDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B05C794025FB63FC00587FC3 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		B05C794D25FB6B8600587FC3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B0F7095625F9BFE700E10AE0 /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,22 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
+		B05C793F25FB63E500587FC3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B05C794025FB63FC00587FC3 /* DBHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B05C794C25FB6B6B00587FC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B05C794D25FB6B8600587FC3 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B0F7094D25F9BFE700E10AE0 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +173,8 @@
 				B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */,
 				B05C776525FB1DD100587FC3 /* Base */,
 				B05C776625FB1DE300587FC3 /* Main */,
+				B05C794C25FB6B6B00587FC3 /* Model */,
+				B05C793F25FB63E500587FC3 /* Helper */,
 				B0F7096225F9BFEA00E10AE0 /* Assets.xcassets */,
 				B0F7096425F9BFEA00E10AE0 /* LaunchScreen.storyboard */,
 				B0F7096725F9BFEA00E10AE0 /* Info.plist */,
@@ -432,6 +454,8 @@
 			files = (
 				B05C776125FB1DCD00587FC3 /* BaseViewController.swift in Sources */,
 				B0F7095A25F9BFE700E10AE0 /* AppDelegate.swift in Sources */,
+				B05C794E25FB6B8600587FC3 /* User.swift in Sources */,
+				B05C794125FB63FC00587FC3 /* DBHelper.swift in Sources */,
 				B0F7095C25F9BFE700E10AE0 /* SceneDelegate.swift in Sources */,
 				B05C77B725FB3A3700587FC3 /* MainViewController.swift in Sources */,
 			);
