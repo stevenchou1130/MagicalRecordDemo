@@ -10,9 +10,17 @@ import MagicalRecord
 
 class MainViewController: BaseViewController {
 
-    lazy var button: UIButton = {
-        let button: UIButton = SCButtonFactory.createButton(with: "Action Button")
-        button.addTarget(self, action: #selector(butttonTapped), for: .touchUpInside)
+    lazy var storeButton: UIButton = {
+        let button: UIButton = SCButtonFactory.createButton(with: "Store a user")
+        button.addTarget(self, action: #selector(storeBtnTapped), for: .touchUpInside)
+        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = .black
+        return button
+    }()
+    
+    lazy var fetchButton: UIButton = {
+        let button: UIButton = SCButtonFactory.createButton(with: "Fetch a user")
+        button.addTarget(self, action: #selector(fetchBtnTapped), for: .touchUpInside)
         button.setTitleColor(.white, for: .normal)
         button.backgroundColor = .black
         return button
@@ -23,17 +31,25 @@ class MainViewController: BaseViewController {
         
         self.view.backgroundColor = .lightGray
         
-        self.view.addSubview(self.button)
+        self.view.addSubview(self.storeButton)
+        self.view.addSubview(self.fetchButton)
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
-        self.button.snp.makeConstraints { (make) in
+        self.storeButton.snp.makeConstraints { (make) in
             make.width.equalTo(150)
             make.height.equalTo(40)
             make.centerX.equalToSuperview()
-            make.bottom.equalTo(self.view.snp_bottomMargin).offset(-80)
+            make.top.equalTo(self.view.snp_topMargin).offset(120)
+        }
+        
+        self.fetchButton.snp.makeConstraints { (make) in
+            make.width.equalTo(150)
+            make.height.equalTo(40)
+            make.centerX.equalToSuperview()
+            make.top.equalTo(self.storeButton.snp_topMargin).offset(80)
         }
     }
 }
@@ -41,34 +57,49 @@ class MainViewController: BaseViewController {
 // MARK: - Action
 extension MainViewController {
     
-    @objc func butttonTapped() {
-        
-        print("=== butttonTapped")
-        
-        self.loadData()
+    @objc func storeBtnTapped() {
+
+        let user = self.createUser()
+        self.storeData(with: user)
     }
     
-    /**
-     API
-     * https://data.gov.tw/dataset/8066
-     * https://agridata.coa.gov.tw/api.aspx#operations-tag-%E4%BA%A4%E6%98%93%E8%A1%8C%E6%83%85
-     * https://agridata.coa.gov.tw/api/v1/CropType/
-     */
-    func loadData() {
+    func createUser() -> User {
         
-        print("=== loadData")
+        let id = String(Int.random(in: 1...99999))
+        let name = "測試者\(id)"
+        let age = Int.random(in: 18...50)
+        let city = ["台北市", "新北市", "桃園市", "台中市", "台南市", "高雄市"].randomElement()!
         
-        self.storeData()
+        return User(id: id, name: name, age: age, address: ["city": city])
     }
     
-    func storeData() {
+    func storeData(with user: User) {
         
-        print("=== storeData")
+        DBHelper.shared.store(user: user)
+    }
+}
+
+// MARK: - Fetch
+extension MainViewController {
+    
+    @objc func fetchBtnTapped() {
         
+        self.fetchUser()
+    }
+    
+    func fetchUser() {
+        
+        DBHelper.shared.fetch()
     }
 }
 
 // MARK: - Private
 extension MainViewController {
     
+    /**
+     API for testing
+     * https://data.gov.tw/dataset/8066
+     * https://agridata.coa.gov.tw/api.aspx#operations-tag-%E4%BA%A4%E6%98%93%E8%A1%8C%E6%83%85
+     * https://agridata.coa.gov.tw/api/v1/CropType/
+     */
 }

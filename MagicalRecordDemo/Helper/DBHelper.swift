@@ -19,16 +19,53 @@ import MagicalRecord
 class DBHelper {
     
     static let shared = DBHelper()
+
+    var privateContext: NSManagedObjectContext {
+        let context = NSManagedObjectContext.mr_newPrivateQueue()
+        context.parent = NSManagedObjectContext.mr_default()
+        return context
+    }
     
     func setup() {
+        
+        print("DB setup")
+        
+        MagicalRecord.setLoggingLevel(.error)
         MagicalRecord.setupAutoMigratingCoreDataStack()
     }
     
     func cleanUp() {
+        
+        print("DB cleanUp")
+        
         MagicalRecord.cleanUp()
     }
     
-    func store(data: Any, key: String) {
+    func store(user: User) {
         
+        MagicalRecord.save({ (localContext) in
+
+            let cdUser = CDUser.mr_createEntity(in: localContext)
+            cdUser?.name = user.name
+            cdUser?.age = Int32(user.age)
+            cdUser?.createAt = user.createAt
+            cdUser?.id = user.id
+            let address = user.address as NSDictionary
+            cdUser?.address = address
+            
+        }) { (success, error) in
+
+            print("Save successfully")
+        }
+    }
+    
+    func fetch() {
+         
+        let usersSorted = CDUser.mr_findAllSorted(by: "id", ascending: true)
+        if let users = usersSorted as? [CDUser] {
+            users.forEach { (user) in
+                print("User info: \(user.id), \(user.name), \(user.age), \(user.createAt), \(user.address)")
+            }
+        }
     }
 }

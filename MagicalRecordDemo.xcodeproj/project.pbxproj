@@ -14,6 +14,9 @@
 		B05C77B725FB3A3700587FC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C77B625FB3A3700587FC3 /* MainViewController.swift */; };
 		B05C794125FB63FC00587FC3 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C794025FB63FC00587FC3 /* DBHelper.swift */; };
 		B05C794E25FB6B8600587FC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05C794D25FB6B8600587FC3 /* User.swift */; };
+		B0E7B25B26009D9D0071477B /* UserCoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B25926009D9D0071477B /* UserCoreDataModel.xcdatamodeld */; };
+		B0EE4FE92600AF74005EE195 /* CDUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE4FE72600AF74005EE195 /* CDUser+CoreDataProperties.swift */; };
+		B0EE4FEA2600AF74005EE195 /* CDUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE4FE82600AF74005EE195 /* CDUser+CoreDataClass.swift */; };
 		B0F7095A25F9BFE700E10AE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */; };
 		B0F7095C25F9BFE700E10AE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */; };
 		B0F7096125F9BFE700E10AE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F7095F25F9BFE700E10AE0 /* Main.storyboard */; };
@@ -55,6 +58,9 @@
 		B05C785925FB3E7C00587FC3 /* MagicalRecordDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicalRecordDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		B05C794025FB63FC00587FC3 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		B05C794D25FB6B8600587FC3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0E7B25A26009D9D0071477B /* UserCoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserCoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		B0EE4FE72600AF74005EE195 /* CDUser+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B0EE4FE82600AF74005EE195 /* CDUser+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CDUser+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B0F7095625F9BFE700E10AE0 /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7095925F9BFE700E10AE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0F7095B25F9BFE700E10AE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +184,9 @@
 				B0F7096225F9BFEA00E10AE0 /* Assets.xcassets */,
 				B0F7096425F9BFEA00E10AE0 /* LaunchScreen.storyboard */,
 				B0F7096725F9BFEA00E10AE0 /* Info.plist */,
+				B0EE4FE82600AF74005EE195 /* CDUser+CoreDataClass.swift */,
+				B0EE4FE72600AF74005EE195 /* CDUser+CoreDataProperties.swift */,
+				B0E7B25926009D9D0071477B /* UserCoreDataModel.xcdatamodeld */,
 			);
 			path = MagicalRecordDemo;
 			sourceTree = "<group>";
@@ -453,7 +462,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05C776125FB1DCD00587FC3 /* BaseViewController.swift in Sources */,
+				B0E7B25B26009D9D0071477B /* UserCoreDataModel.xcdatamodeld in Sources */,
+				B0EE4FEA2600AF74005EE195 /* CDUser+CoreDataClass.swift in Sources */,
 				B0F7095A25F9BFE700E10AE0 /* AppDelegate.swift in Sources */,
+				B0EE4FE92600AF74005EE195 /* CDUser+CoreDataProperties.swift in Sources */,
 				B05C794E25FB6B8600587FC3 /* User.swift in Sources */,
 				B05C794125FB63FC00587FC3 /* DBHelper.swift in Sources */,
 				B0F7095C25F9BFE700E10AE0 /* SceneDelegate.swift in Sources */,
@@ -801,6 +813,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0E7B25926009D9D0071477B /* UserCoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0E7B25A26009D9D0071477B /* UserCoreDataModel.xcdatamodel */,
+			);
+			currentVersion = B0E7B25A26009D9D0071477B /* UserCoreDataModel.xcdatamodel */;
+			path = UserCoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B0F7094E25F9BFE700E10AE0 /* Project object */;
 }
